@@ -1,0 +1,45 @@
+*{
+    background-color: plum;
+    font-family: Stencil Std, fantasy;
+
+}
+.card{
+    margin: 20px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 10px; 
+    border: 2px solid #1f001f;
+    height: 300px;
+    width: 350px;
+
+    background-color: #ebbdeb;
+}
+a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 7px;    
+    height: 50px;
+    width: 100px;
+
+    text-decoration: none;
+
+    background-color: #ce49ce;
+    color: white;
+
+    animation: zoom 2s infinite alternate;
+}
+
+@keyframes zoom {
+    from{transform: scale (0.8);}
+    to{transform: scale(1.2);}
+}
+.card p{
+    color: #2b0c2b;
+    background-color: #ebbdeb;
+}
+

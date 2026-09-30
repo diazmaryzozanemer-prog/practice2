@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        *{
+            background-color: plum;
+            
+
+        }
+        .container{
+        width: 85%;
+        max-width: 700px;
+        margin: 20px auto;
+        flex-direction: column;
+
+        height: 500px;
+        padding: 15px;
+
+        border-radius: 50px;
+
+        border: 4px solid #1f001f;
+
+        background-color: #ebbdeb;
+        }
+
+        h3{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        font-family: Impact, fantasy;
+
+        color: #2b0c2b;
+        background-color: #f07df0;
+        border-radius: 20px;
+
+        height: 50px;
+        }
+
+        p{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        font-family: Brush Script MT, Brush Script Std, cursive;
+
+        color: #2b0c2b;
+        background-color: #ebbdeb;
+        }
+        h4{
+        color: #2b0c2b;
+        background-color: #ebbdeb;
+        
+        font-family: cursive;
+        }
+        
+        .container2{
+        width: 85%;
+        max-width: 700px;
+        margin: 20px auto;
+        flex-direction: column;
+
+        height: 300px;
+        padding: 20px;
+
+        border-radius: 50px;
+
+        border: 4px solid #1f001f;
+
+        background-color: #ebbdeb;
+        }
+        
+        .container2 img{
+           height: 200px;
+           width: 300px;
+           border-radius: 30px;
+           
+           border: 3px solid #1f001f;
+            
+        }
+        button {
+    background-color: #9e43a9;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+    </style>
+
+    <div class="container">
+
+        
+        <h3>
+            HAPPY TEACHERS MONTH! 
+        </h3>
+       
+
+        
+        <h4>
+            To my dear former prof:
+        </h4> 
+        <p>
+            I am really grateful that you were the one chosen to be our adviser for the second semester when I was a first year.
+            <br>   </br>
+            Please continue teaching in such a manner where students can take their own pace, just like how I did.
+            <br>   </br>
+            Always stay healthy and lively. Thank you for being a very wonderful professor. 
+            
+            <br> </br>
+            
+        </p>
+        
+
+    </div>
+
+    <div class="container2">
+        <img src="mam.jpeg" alt="haha" />
+       <audio id="bgMusic" src="for.mp3" autoplay loop></audio>
+
+<button onclick="stopMusic()">Stop Music</button>
+
+<script>
+    function stopMusic() {
+        const music = document.getElementById("bgMusic");
+        music.pause();
+        music.currentTime = 0;
+    }
+</script>
+    </div>
+    
+
+</body>
+</html>
